@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextDPPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pais" />
+
+    <EditText
+        android:id="@+id/editTextDPEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estado" />
+
+    <EditText
+        android:id="@+id/editTextDPMunicipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Municipio" />
+
+    <EditText
+        android:id="@+id/editTextDPCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ciudad" />
+
+    <EditText
+        android:id="@+id/editTextCalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Calle" />
+
+    <EditText
+        android:id="@+id/editTextDPNumeroExterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Numero Exterior" />
+
+    <EditText
+        android:id="@+id/editTextDPNumeroInterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Numero Interior" />
+
+    <EditText
+        android:id="@+id/editTextCodigoPostal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Codigo Postal" />
+
+    <Button
+        android:id="@+id/buttonDPGuardar"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+</LinearLayout>

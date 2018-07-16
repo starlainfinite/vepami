@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mc_datosPersonales"
+            android:icon="@drawable/no_avatar_icon"
+            android:title="Datos Personales" />
+        <item
+            android:id="@+id/mc_datosFiscales"
+            android:icon="@drawable/no_avatar_icon"
+            android:title="Datos Fiscales" />
+        <item
+            android:id="@+id/mc_direcciones"
+            android:icon="@drawable/no_avatar_icon"
+            android:title="Direcciones" />
+        <item
+            android:id="@+id/mc_cambiarCuenta"
+            android:icon="@drawable/no_avatar_icon"
+            android:title="Cambiar Cuenta" />
+    </group>
+</menu>

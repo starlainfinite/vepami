@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextEMail"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar / Registrar" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRecordarCuenta"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Recordar cuenta" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAdministrador"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Es administrador"
+        android:visibility="invisible" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="187dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/buttonFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:text="Button"
+            app:srcCompat="@drawable/ic_facebook" />
+
+        <ImageButton
+            android:id="@+id/buttonTweeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:text="Button"
+            app:srcCompat="@drawable/ic_twitter" />
+
+        <ImageButton
+            android:id="@+id/buttonGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:text="Button"
+            app:srcCompat="@drawable/ic_google" />
+    </LinearLayout>
+</LinearLayout>
